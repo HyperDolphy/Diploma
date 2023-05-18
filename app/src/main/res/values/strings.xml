@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Diploma</string>
+    <string name="ProgramName">Проверка средств безопасности ОС Андроид</string>
+    <string name="micBut">Приложения с доступом к камере/микрофону</string>
+    <string name="InternetCheckBut">Проверка подключения к интернету</string>
+    <string name="FirewallChecker">Проверка наличия межсетевого экрана</string>
+    <string name="AntivirusButton">Проверка наличия антивируса</string>
+    <string name="IsRootedButton">Проверка наличия прав суперпользователя</string>
+    <string name="ExploitButton">Проверка на наличие эксплойтов</string>
+    <string name="PasswordButton">Проверка на наличие пароля</string>
+
+</resources>
