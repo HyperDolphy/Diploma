@@ -1,5 +1,7 @@
 package com.example.diploma;
 
+import android.annotation.SuppressLint;
+
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
@@ -10,7 +12,7 @@ public class FirewallChecker {
 
         try {
             // Получаем экземпляр класса IPTablesManager через рефлексию
-            Class<?> iptablesManagerClass = Class.forName("android.net.IpTablesManager");
+            @SuppressLint("PrivateApi") Class<?> iptablesManagerClass = Class.forName("android.net.IpTablesManager");
             Object iptablesManager = iptablesManagerClass.newInstance();
 
             // Вызываем метод isFirewallEnabled() для проверки состояния межсетевого экрана

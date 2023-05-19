@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Diploma</string>
+    <string name="app_name">SecurityCheck</string>
     <string name="ProgramName">Проверка средств безопасности ОС Андроид</string>
     <string name="micBut">Приложения с доступом к камере/микрофону</string>
     <string name="InternetCheckBut">Проверка подключения к интернету</string>
@@ -9,7 +9,7 @@
     <string name="ExploitButton">Проверка на наличие эксплойтов</string>
     <string name="PasswordButton">Проверка на наличие пароля</string>
     <string name="textView2">Отчеты о проверках</string>
-    <string name="button7">Сохранить отчет</string>
-    <string name="button8">Показать отчет</string>
-
+    <string name="SaveReport">Сохранить отчет</string>
+    <string name="GetReport">Показать отчет</string>
+    <string name="Return">Назад</string>
 </resources>

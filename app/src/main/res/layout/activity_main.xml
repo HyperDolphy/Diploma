@@ -32,8 +32,8 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="263dp"
-        android:layout_height="70dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:layout_marginStart="160dp"
         android:layout_marginTop="52dp"
         android:layout_marginEnd="160dp"
@@ -48,77 +48,78 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:layout_marginStart="160dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="160dp"
+        android:text="@string/micBut"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        android:text="@string/micBut" />
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="303dp"
-        android:layout_height="55dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:layout_marginStart="160dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="160dp"
+        android:text="@string/AntivirusButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        android:text="@string/AntivirusButton" />
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:layout_marginStart="160dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="160dp"
+        android:text="@string/FirewallChecker"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
-        android:text="@string/FirewallChecker" />
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:layout_marginStart="160dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="160dp"
+        android:text="@string/IsRootedButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
-        android:text="@string/IsRootedButton" />
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:layout_marginStart="160dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="160dp"
+        android:text="@string/PasswordButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
-        android:text="@string/PasswordButton" />
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="291dp"
-        android:layout_height="46dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:layout_marginStart="160dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="160dp"
+        android:onClick="ResultsActivity"
+        android:text="@string/GetReport"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6"
-        tools:text="@string/button8" />
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
 </androidx.constraintlayout.widget.ConstraintLayout>
