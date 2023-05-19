@@ -8,5 +8,8 @@
     <string name="IsRootedButton">Проверка наличия прав суперпользователя</string>
     <string name="ExploitButton">Проверка на наличие эксплойтов</string>
     <string name="PasswordButton">Проверка на наличие пароля</string>
+    <string name="textView2">Отчеты о проверках</string>
+    <string name="button7">Сохранить отчет</string>
+    <string name="button8">Показать отчет</string>
 
 </resources>
